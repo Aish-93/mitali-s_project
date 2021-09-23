@@ -27,14 +27,31 @@ img {
 
 .bags {
   display: block;
-  border: 1px solid rgb(12, 11, 11);
+  border: 3px solid rgb(236, 231, 231);
   background: #000;
   overflow: hidden;
 }
 
-.bags img {
+.big {
+  transform: scale(1);
   transition: all 0.7s ease;
 }
+
+.big:hover{
+  transform: scale(1.5);
+}
+
+.big2{
+  transform: scale(1);
+  transition: top 0.5s ease-in-out;
+}
+
+.big2:hover{
+  transform: scale(1.2);
+  overflow: hidden;
+}
+
+
 
 
 #footer{
@@ -53,7 +70,7 @@ img {
 .foot1 ul li {
   list-style: none;
   margin-top:  10px;
-  color:salmon;
+  color:rgb(241, 186, 180);
   /* margin-right: 40px; */
 }
 
@@ -67,5 +84,5 @@ img {
 
 a {
   text-decoration: none;
-  color: salmon;
+  color:rgb(241, 186, 180);
 }
